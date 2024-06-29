@@ -1,0 +1,57 @@
+.inquiry-form-container {
+    background-color: #8b8bb3; /* White background for a clean look */
+    padding: 2rem; /* Add padding around the form */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow for more depth */
+    margin: auto; /* Center the form */
+    border: 1px solid #986363; /* Light grey border for subtle framing */
+    align-items: center;
+    max-width: 100%;
+    padding left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-control {
+    margin-bottom: 1rem; /* Space between form elements */
+    border: 1px solid #0a2648; /* Light grey border for form controls */
+    border-radius: 0.25rem; /* Slightly rounded corners */
+    padding: 0.75rem; /* Padding inside the form controls */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
+}
+
+.form-control:focus {
+    border-color: #80bdff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Blue shadow on focus */
+}
+
+.form-select {
+    margin-bottom: 1rem; /* Space between form elements */
+    border: 1px solid #519be4; /* Light grey border for form controls */
+    border-radius: 0.25rem; /* Slightly rounded corners */
+    padding: 0.75rem; /* Padding inside the form controls */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
+}
+
+.form-select:focus {
+    border-color: #80bdff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Blue shadow on focus */
+}
+
+.btn {
+    margin-top: 5px; /* Space above the submit button */
+    padding: 0.75rem 1.5rem; /* Padding inside the button */
+    font-size: 1rem; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    background-color: #007bff; /* Blue background color */
+    border: none; /* Remove default border */
+    border-radius: 0.25rem; /* Slightly rounded corners */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover state */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
