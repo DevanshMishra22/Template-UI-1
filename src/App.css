@@ -151,14 +151,15 @@ body {
 .nav a {
   margin-left: 15px;
 }
-/* Carousel Slide Styles */
+
 .carousel-slide {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 600px; /* Adjust as needed */
+  height: 600px; 
   padding: 50px;
-  background: linear-gradient(to right, #cbb2fe, #90E0EF, #739fd2, #CAF0F8);
+  background: linear-gradient(to right, #5e60ce, #48CAE4, #739fd2, #4cc9f0);
+
 }
 
 .carousel-text {
@@ -192,10 +193,14 @@ body {
 
 .carousel-text .btn-primary {
   background-color: #3f4041;
+  width: 150px;
+  height: 60px;
 }
 
 .carousel-text .btn-secondary {
   background-color: #3f4041;
+  width: 150px;
+  height: 60px;
 }
 
 .carousel-image {
@@ -211,7 +216,7 @@ body {
   width: auto;
 }
 
-/* Carousel Control Styles */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: rgba(19, 18, 18, 0.5);

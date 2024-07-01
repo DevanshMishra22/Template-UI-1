@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from '../Logos/cderplogo white bg.jpg'; // Ensure you have the logo image in the src directory
+import logo from '../Logos/cderplogo white bg.jpg'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../App.css';
+
 /*jhyrtyu*/
 const Header = () => (
   <header> 
@@ -28,7 +29,9 @@ const Header = () => (
         </div>
         <a href="#" className="btn btn-link">Blog</a>
         <a href="#" className="btn btn-link">About us</a>
+        
       </div>
+      
     </div>
   </header>
 );

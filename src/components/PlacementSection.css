@@ -1,0 +1,29 @@
+.placement-section {
+    padding: 2rem;
+  }
+  
+  .section-title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #003366; /* Dark blue text color */
+  }
+  
+  .placement-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0.5rem; /* Add some margin between cards */
+  }
+  
+  .student-image {
+    width: 100%; /* Make the image fit the card width */
+    height: auto;
+  }
+  
+  .company-logo {
+    width: 50px;
+    margin-top: 1rem;
+  }
+  

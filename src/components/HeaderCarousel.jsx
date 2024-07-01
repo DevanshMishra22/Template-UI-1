@@ -7,7 +7,7 @@ import slideImage2 from '../Logos/file01.png';
 import slideImage3 from '../Logos/file02.png';
 import slideImage4 from '../Logos/file03.png';
 import CompanyLogos from './CompanyLogos';
-import InquiryForm from './InquiryForm';
+
 
 const HeaderCarousel = () => {
   return (

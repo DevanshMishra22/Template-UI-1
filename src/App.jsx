@@ -4,8 +4,7 @@ import HeaderCarousel from './components/HeaderCarousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Marquee from './components/Marquee';
-import InquiryForm from './components/InquiryForm';
-import OffcanvasExample from './components/OffcanvasExample';
+import PlacementSection from './components/PlacementSection';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <Marquee />
       <Header />
       <HeaderCarousel />
-      <InquiryForm />
+      <PlacementSection />
     </div>
   );
 }
