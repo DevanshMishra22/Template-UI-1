@@ -4,69 +4,74 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './PlacementSection.css';
 
 
+
+
+
+
+
 const placements = [
   {
     name: 'Ranvijay Singh Rathore',
     course: 'SAP FICO',
     company: 'Microsoft',
-    image: 'path/to/review image.png',
-    companyLogo: 'path/to/microsoft.png'
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/microsoft.png'
   },
   {
     name: 'Samar Singh',
     course: 'SAP FICO',
     company: 'Cognizant',
-    image: 'path/to/review image.png',
-    companyLogo: 'path/to/cognizant.png'
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/cognizant.png'
   },
   {
     name: 'Adityanath Gupta',
     course: 'SAP FICO',
-    company: 'IBM',
-    image: 'path/to/review image.png',
-    companyLogo: 'path/to/ibm.png'
+    company: 'Amdocs',
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/amdocs.png'
   },
   {
     name: 'Student Four',
     course: 'Digital Marketing',
     company: 'Google',
-    image: 'path/to/review image.png',
-    companyLogo: 'path/to/google.png'
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/google.png'
   },
   {
     name: 'Student Five',
     course: 'Data Science',
     company: 'Amazon',
-    image: './Logos/review image.png',
-    companyLogo: 'path/to/amazon.png'
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/amazon.png'
   },
   {
     name: 'Student Six',
     course: 'Cyber Security',
-    company: 'Facebook',
-    image: 'path/to/review image.png',
-    companyLogo: 'path/to/facebook.png'
+    company: 'Meta',
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/meta.png'
   },
   {
     name: 'Student Seven',
     course: 'AI',
-    company: 'Tesla',
-    image: 'path/to/review image.png',
-    companyLogo: 'path/to/tesla.png'
+    company: 'TCS',
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/tcs.png'
   },
   {
     name: 'Student Eight',
     course: 'IoT',
-    company: 'Intel',
-    image: 'path/to/review image.png',
-    companyLogo: 'path/to/intel.png'
+    company: 'Deloitte',
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/deloitte.png'
   },
   {
     name: 'Student Nine',
     course: 'Blockchain',
     company: 'IBM',
-    image: 'path/to/review image.png',
-    companyLogo: 'path/to/ibm.png'
+    image: 'src/Logos/review image.png',
+    companyLogo: 'src/Logos/ibm.png'
   }
 ];
 

@@ -1,5 +1,8 @@
 .placement-section {
     padding: 2rem;
+    height: 100px;
+   
+    
   }
   
   .section-title {
@@ -14,16 +17,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
     border-radius: 10px;
     overflow: hidden;
-    margin: 0.5rem; /* Add some margin between cards */
+    margin-left: 100px;
+    margin-right: 100px; /* Add some margin between cards */
+    width: 200px;
+    height: 350px;
   }
   
   .student-image {
-    width: 100%; /* Make the image fit the card width */
-    height: auto;
+    width: 200px; /* Make the image fit the card width */
+    height: 150px;
   }
   
   .company-logo {
-    width: 50px;
+    width: 100px;
     margin-top: 1rem;
+    max-width: 50%;
   }
   
