@@ -3,9 +3,9 @@ import logo from '../Logos/cderplogo white bg.jpg'; // Ensure you have the logo 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../App.css';
-
+/*jhyrtyu*/
 const Header = () => (
-  <header>
+  <header> 
     <div className="header">
       <div className="logo">
         <img src={logo} alt="Connecting Dots ERP" />
