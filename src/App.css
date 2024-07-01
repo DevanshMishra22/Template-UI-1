@@ -158,7 +158,7 @@ body {
   justify-content: space-between;
   height: 600px; /* Adjust as needed */
   padding: 50px;
-  background: linear-gradient(to right, #9979de, #739fd2, #5099bb);
+  background: linear-gradient(to right, #cbb2fe, #90E0EF, #739fd2, #CAF0F8);
 }
 
 .carousel-text {

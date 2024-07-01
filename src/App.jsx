@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Marquee from './components/Marquee';
 import InquiryForm from './components/InquiryForm';
+import OffcanvasExample from './components/OffcanvasExample';
 
 function App() {
   return (
