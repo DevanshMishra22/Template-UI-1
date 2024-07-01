@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../cderplogo white bg.jpg'; // Ensure you have the logo image in the src directory
+import logo from '../Logos/cderplogo white bg.jpg'; // Ensure you have the logo image in the src directory
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../App.css';
@@ -27,7 +27,7 @@ const Header = () => (
           </ul>
         </div>
         <a href="#" className="btn btn-link">Blog</a>
-        <a href="#" className="btn btn-link">About Us</a>
+        <a href="#" className="btn btn-link">About us</a>
       </div>
     </div>
   </header>

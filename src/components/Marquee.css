@@ -1,6 +1,6 @@
 .main-container__marquee {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     position: relative;
     width: 100vw;
