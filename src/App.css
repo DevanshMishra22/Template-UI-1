@@ -269,3 +269,36 @@ body {
 .text p {
   margin: 0;
 }
+
+
+.our-clients-section {
+  background: linear-gradient(to right, #3b82f6, #60a5fa); /* Gradient background */
+  padding: 2rem 0;
+}
+
+.section-title {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.clients-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-logo {
+  width: 100px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

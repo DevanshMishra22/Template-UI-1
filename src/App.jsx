@@ -6,6 +6,7 @@ import './App.css';
 import Marquee from './components/Marquee';
 import PlacementSection from './components/PlacementSection';
 import Keypoints from './components/Keypoints';
+import OurClients from './components/Ourclients';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Marquee />
       <Keypoints />
       <PlacementSection />
+      <OurClients />
     </div>
   );
 }
