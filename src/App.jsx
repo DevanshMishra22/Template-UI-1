@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Marquee from './components/Marquee';
 import PlacementSection from './components/PlacementSection';
+import Keypoints from './components/Keypoints';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Marquee />
       <Header />
       <HeaderCarousel />
+      <Marquee />
+      <Keypoints />
       <PlacementSection />
     </div>
   );

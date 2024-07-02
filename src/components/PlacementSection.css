@@ -1,5 +1,5 @@
 .placement-section {
-    padding: 2rem;
+    padding: 6rem;
     height: 100px;
    
     
@@ -10,6 +10,7 @@
     font-size: 2rem;
     font-weight: bold;
     color: #003366; /* Dark blue text color */
+    align-items: center;
   }
   
   .placement-card {
@@ -18,14 +19,14 @@
     border-radius: 10px;
     overflow: hidden;
     margin-left: 100px;
-    margin-right: 100px; /* Add some margin between cards */
+    margin-right: 200px; /* Add some margin between cards */
     width: 200px;
-    height: 350px;
+    height: 340px;
   }
   
   .student-image {
     width: 200px; /* Make the image fit the card width */
-    height: 150px;
+    height:150px;
   }
   
   .company-logo {

@@ -91,8 +91,8 @@ body {
   border-radius: 10px;
   font-size: 18px;
   line-height: 45px;
-  height: 50px;
-  width: 140px;
+  height: 35px;
+  width: 130px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -104,14 +104,14 @@ body {
 .nav .dropdown-menu a {
   color: #ffffff;
   padding: 10px 20px;
-  background-color: #01547d;
+  background-color: #12124f;
   margin-top: 10px;
   margin-left: 20px;
   margin-bottom: 15px;
 }
 
 .nav .dropdown-menu a:hover {
-  background-color: rgb(99, 182, 220);
+  background-color: rgb(33, 68, 85);
 }
 
 .carousel-content {
@@ -234,4 +234,38 @@ body {
 
 .carousel-control-prev-icon {
   background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" fill%3D"%23fff" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M2.5 0l.5.5-3 3 3 3-.5.5-3.5-3.5z"/%3E%3C/svg%3E');
+}/* Keypoints CSS */
+.keypoints {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fffbfb;
+}
+
+.keypoint {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  text-align: left;
+}
+.keypoint:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  border-right: 2px solid #000;
+}
+
+.keylogo img {
+  width: 100px; /* Adjust the width to decrease the size */
+  height: auto; /* Maintain aspect ratio */
+}
+.text h4 {
+  margin: 0;
+}
+
+.text p {
+  margin: 0;
 }
